@@ -1,26 +1,33 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+Console.WriteLine("Hello, World!");
 
-// Console.WriteLine("Hello, World!");
+String characterName = "Tom";
+int characterAge; 
+characterAge = 20;
 
-// Console.WriteLine("/___/");
-// Console.WriteLine("/___/");
-// Console.WriteLine("/___/");
-// Console.WriteLine("/___/");
-// Console.WriteLine("/___/");
+Console.WriteLine("My name is " + characterName);
 
 
-string characterName = "Tom";
-int characterAge;
-characterAge = 35;
+characterName = "village";
+Console.WriteLine("I live in " + characterName);
+Console.WriteLine("I am " + characterAge + " years old");
 
-Console.WriteLine("There once was a man named " + characterName);
-Console.WriteLine("He was "+ characterAge +" years old");
 
-characterName = "fed";
-characterAge = 0;
-Console.WriteLine("He really liked the name " + characterName);
-Console.WriteLine("But didn't like being " + characterAge);
+String phrase = "Gulshan Rahman";
+Console.WriteLine(phrase);
+
+String word = "Gulshan Rahman" + " is fool";
+Console.WriteLine(word);
+
+
+Console.WriteLine("Gulshn Rahman \nTanny");
+
+Console.WriteLine("    /| ");
+Console.WriteLine("   / | ");
+Console.WriteLine("  /  | ");
+Console.WriteLine(" /___| ");
+
 
 Console.ReadLine();
 
