@@ -37,9 +37,33 @@ Console.WriteLine(" /___| ");
 //String phrase = "Gulshan Rahman";
 //Console.WriteLine(phrase.Contains("Gulshan"));
 
-String phrase = "Gulshan Rahman";
-Console.WriteLine(phrase[0]);
+//String phrase = "Gulshan Rahman";
+//Console.WriteLine(phrase[0]);
 
+String phrase = "Gulshan Rahman";
+Console.WriteLine(phrase.IndexOf("R"));
+
+Console.WriteLine((5+7) * 8);
+
+
+//int num = 6;
+
+//Console.WriteLine(num);
+
+int num = 6;
+num++;
+Console.WriteLine(num);
+
+Console.WriteLine(Math.Pow(3.6,5));
+
+Console.Write("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine("Hello " + name);
 
 Console.ReadLine();
+
+
+
+
+
 
