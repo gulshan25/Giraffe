@@ -1,32 +1,32 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-String characterName = "Tom";
-int characterAge; 
-characterAge = 20;
+//String characterName = "Tom";
+//int characterAge; 
+//characterAge = 20;
 
-Console.WriteLine("My name is " + characterName);
+//Console.WriteLine("My name is " + characterName);
 
 
-characterName = "village";
-Console.WriteLine("I live in " + characterName);
-Console.WriteLine("I am " + characterAge + " years old");
+//characterName = "village";
+//Console.WriteLine("I live in " + characterName);
+//Console.WriteLine("I am " + characterAge + " years old");
 
 
 //String phrase = "Gulshan Rahman";
 //Console.WriteLine(phrase);
 
-String word = "Gulshan Rahman" + " is fool";
-Console.WriteLine(word);
+//String word = "Gulshan Rahman" + " is fool";
+//Console.WriteLine(word);
 
 
-Console.WriteLine("Gulshn Rahman \nTanny");
+//Console.WriteLine("Gulshn Rahman \nTanny");
 
-Console.WriteLine("    /| ");
-Console.WriteLine("   / | ");
-Console.WriteLine("  /  | ");
-Console.WriteLine(" /___| ");
+//Console.WriteLine("    /| ");
+//Console.WriteLine("   / | ");
+//Console.WriteLine("  /  | ");
+//Console.WriteLine(" /___| ");
 
 //String phrase = "Gulshan Rahman";
 //Console.WriteLine(phrase.ToLower());
@@ -40,25 +40,35 @@ Console.WriteLine(" /___| ");
 //String phrase = "Gulshan Rahman";
 //Console.WriteLine(phrase[0]);
 
-String phrase = "Gulshan Rahman";
-Console.WriteLine(phrase.IndexOf("R"));
+//String phrase = "Gulshan Rahman";
+//Console.WriteLine(phrase.IndexOf("R"));
 
-Console.WriteLine((5+7) * 8);
+//Console.WriteLine((5+7) * 8);
 
 
 //int num = 6;
 
 //Console.WriteLine(num);
 
-int num = 6;
-num++;
-Console.WriteLine(num);
+//int num = 6;
+//num++;
+//Console.WriteLine(num);
 
-Console.WriteLine(Math.Pow(3.6,5));
+//Console.WriteLine(Math.Pow(3.6,5));
+
+//Console.Write("Enter your name: ");
+//string name = Console.ReadLine();
+//Console.WriteLine("Hello " + name);
+
+//string sentence = "Gulshan Rahman";
+//Console.WriteLine(sentence.ToUpper());
+
 
 Console.Write("Enter your name: ");
 string name = Console.ReadLine();
-Console.WriteLine("Hello " + name);
+Console.Write("Enter your age: ");
+string age = Console.ReadLine();
+Console.WriteLine("Hello " + name + " you are " + age);
 
 Console.ReadLine();
 
