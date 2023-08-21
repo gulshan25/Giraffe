@@ -106,7 +106,9 @@
 
 int[] luckynumbers = { 8, 4, 6, 9 };
 
-Console.WriteLine(luckynumbers[2]);
+//luckynumbers[1] = 7;
+
+Console.WriteLine(luckynumbers[1]);
 
 Console.ReadLine();
 
