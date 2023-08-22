@@ -118,14 +118,20 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            SayHi("Mike", 33);
-
+            //SayHi("Mike", 33);
+            Console.WriteLine(cube(5));
             Console.ReadLine();
         }
   
-        static void SayHi(string name, int age)
+        //static void SayHi(string name, int age)
+        //{
+        //    Console.WriteLine("Hello " + name + " His age is " + age + " years old");
+        //}
+
+        static int cube(int num)
         {
-            Console.WriteLine("Hello " + name + " His age is " + age + " years old");
+            int result = num * num * num;
+            return result;
         }
     }
 
