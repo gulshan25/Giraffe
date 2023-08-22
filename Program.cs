@@ -104,13 +104,32 @@
 //Console.WriteLine(pluralNoun + " are blue");
 //Console.WriteLine("I love " +  celebrity);
 
-int[] luckynumbers = { 8, 4, 6, 9 };
+//int[] luckynumbers = { 8, 4, 6, 9 };
 
 //luckynumbers[1] = 7;
 
-Console.WriteLine(luckynumbers[1]);
+//Console.WriteLine(luckynumbers[1]);
 
-Console.ReadLine();
+//Console.ReadLine();
+
+namespace Giraffe
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SayHi("Mike", 33);
+
+            Console.ReadLine();
+        }
+  
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hello " + name + " His age is " + age + " years old");
+        }
+    }
+
+}
 
 
 
